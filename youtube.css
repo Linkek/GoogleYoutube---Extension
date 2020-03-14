@@ -1,0 +1,18 @@
+/**
+*
+*	basic css too make the "on the web" link too be visable and right size.
+*
+**/
+
+#youtube-search-google-299 {
+	color: #333;
+    text-decoration: none;
+    width: 60px;
+    padding: 2px;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+html[dark="true"] #youtube-search-google-299 {
+	color: #ffffff80; 
+}

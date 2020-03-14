@@ -1,0 +1,16 @@
+{
+	"name": "Youtube Search",
+	"version": "1.0",
+	"manifest_version": 2,
+	"content_scripts": [
+		{
+			"matches": ["https://www.google.com/*"],
+			"js": ["google.js"]
+		},
+		{
+			"matches": ["https://www.youtube.com/*"],
+			"js": ["youtube.js"],
+			"css": ["youtube.css"]
+		}
+	]
+}
